@@ -1,0 +1,106 @@
+.reviews {
+  position: relative;
+  background-image: url(/img/reviews/reviews-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 25px 0 0 0;
+}
+.reviews::before {
+  content: "";
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: -136px;
+  width: 340px;
+  height: 380px;
+  background-image: url(/img/reviews/reviews-flower-dekor.png);
+}
+.reviews .title {
+  margin-bottom: 24px;
+}
+.reviews .container {
+  padding-bottom: 115px;
+}
+.reviews-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 93px;
+}
+.reviews-item {
+  position: relative;
+  width: 255px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 292px;
+  padding: 50px 18px 30px 18px;
+  border-radius: 15px;
+
+  background: linear-gradient(
+    137deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+}
+
+.reviews-item:nth-child(2) {
+  background: linear-gradient(
+    137deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+  padding: 50px 9px 30px 18px;
+}
+.reviews-item:nth-child(3) {
+  background: linear-gradient(
+    143deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  padding: 50px 9px 30px 18px;
+}
+.reviews-text {
+  color: var(--hovheader-link-text);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.reviews-data {
+  color: var(--revies-from-text);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.user {
+  display: flex;
+}
+.user-wrapper-text {
+  margin-left: 5px;
+}
+.user-title {
+  color: var(--hovheader-link-text);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.user-text {
+  color: var(--revies-from-text);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

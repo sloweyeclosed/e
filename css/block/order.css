@@ -1,0 +1,36 @@
+.order {
+  padding: 21px 0 37px 0;
+  background-image: url(/img/order/order-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.order .title {
+  margin-bottom: 33px;
+}
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: center;
+}
+.order-input {
+  width: 580px;
+  border-radius: 50px;
+  padding: 11px 24px;
+}
+#form-email {
+  width: 690px;
+  padding: 13px 25px;
+}
+.order-form-btn {
+  color: var(--hovheader-link-text);
+  padding: 20px 50px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 16px;
+  border: none;
+  background: var(--btn-border-adv);
+}

@@ -1,0 +1,32 @@
+:root {
+  --header-bg: #012d63;
+  --header-link: #c7c7c7;
+  --hovheader-link-text: #ffffff;
+  --change: #dcdcdc;
+  --revies-from-text: #d8d8d8;
+  --btn-border-adv: #8e32c6;
+  --footer-bg: #021635;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.title {
+  color: var(--hovheader-link-text);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

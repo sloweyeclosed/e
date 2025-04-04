@@ -1,0 +1,40 @@
+.advantages {
+  position: relative;
+  padding: 106px 0;
+  background-image: url(/img/advantages/advantages-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.advantages-list {
+  display: flex;
+  padding: 25px 50px;
+  gap: 95px;
+  justify-content: space-between;
+  border: 5px solid var(--btn-border-adv);
+}
+.advantages-item {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.advantages-item:first-child {
+  padding-right: 50px;
+  border-right: 1px solid var(--hovheader-link-text);
+}
+.advantages-item:last-child {
+  padding-left: 50px;
+  border-left: 1px solid var(--hovheader-link-text);
+}
+.advantages-title {
+  color: var(--hovheader-link-text);
+  width: 159px;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
